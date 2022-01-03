@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/**************************************** Global ************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/************************************** Scrollbar *************************************/
+::-webkit-scrollbar{
+    width: 0.625rem;
+  }
+  ::-webkit-scrollbar-track{
+    background: whitesmoke;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #E76F51;
+  }
+  /************************************ Navbar ******************************************/
+.navbar{
+    background-color: #264653;
+}
+#navbarNav .btn{
+    background-color: #E76F51;
+    color: white;
+}
+/*********************************** Bannar Section ************************************/
+.banner {
+    background-color: #264653;
+    
+}
+.banner button{
+    background-color:#E76F51;
+    color: white;
+    padding: 5px 25px;
+    margin-top: 20px;
+}
+/*********************************** Featured Section *******************************/
+.featured .gray img{
+    filter: grayscale(100);
+}
+.featured img:hover{
+    filter: grayscale(100);
+}
+.featured-col{
+    margin-top: 40px;
+}
+.featured p{
+   color: #E76F51;
+}
+/*********************************** Happy client **********************************/
+.happy-client h1 span{
+    color:#E76F51;
+  
+}
+.card-body i{
+   color: #E76F51;
+}
+/************************** Frequently Asked Questions Section ********************/
+.faq h1 span{
+    color: #E76F51;
+ }
+
+ .accordion-color{
+     background-color: white !important;
+ }
+ .accordion-button {
+     color: black !important;
+     font-weight: bold;
+ }
+
+ /********************************* BONUS ------- PART ****************************/
+
+ .bike h1 span{
+    color: #E76F51;
+ }
+.rounded-pill{
+    border-radius: 3rem;
+    
+}
+.carousel-caption{
+    color: #E76F51 !important;
+}
+
+.target-cust h1 span{
+    color: #E76F51;
+ }
+.news .btn{
+     border-color: #E76F51 ;
+    color: #E76F51;
+}
+
+ .news .btn:hover{
+    background-color: #E76F51;
+    color: white;
+ }
+ .news .active{
+    background-color: #E76F51;
+    color: white;
+ }
+ /* Form */
+
+ .form-detail .btn{
+    background-color: #E76F51;
+    color: white;
+}
+.form{
+    background-color: #26465391;
+}
